@@ -18,6 +18,14 @@ public class BD {
             "CREATE TABLE DOMICILIOS (ID INT AUTO_INCREMENT PRIMARY KEY, CALLE VARCHAR(100) NOT NULL, NUMERO INT NOT NULL, LOCALIDAD VARCHAR(100) NOT NULL, PROVINCIA VARCHAR(100) NOT NULL)";
     private static final String SQL_PRUEBA="INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES ('Jorgito','Pereyra','111111','2024-05-16', 1), ('German','Fraire','22222','2024-05-10',2); " +
             "INSERT INTO DOMICILIOS  (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre Viva',742,'Springfield','USA'),('Av. Uruguay',345,'Punta del Este','Uruguay')";
+
+    private static final String SQL_DROP_CREATE_ODO="DROP TABLE IF EXISTS ODONTOLOGO; " +
+            "CREATE TABLE ODONTOLOGO( " +
+            "NUMERO_MATRICULA INT PRIMARY KEY, " +
+            "NOMBRE VARCHAR(50) NOT NULL, " +
+            "APELLIDO VARCHAR(50) NOT NULL " +
+            ")";
+
 public static void crearTablas(){
     Connection connection= null;
     try{
@@ -26,6 +34,7 @@ public static void crearTablas(){
         statement.execute(SQL_DROP_CREATE_DOM);
         statement.execute(SQL_DROP_CREATE_PAC);
         statement.execute(SQL_PRUEBA);
+        statement.execute(SQL_DROP_CREATE_ODO);
         logger.info("tabla creada con exito");
 
 

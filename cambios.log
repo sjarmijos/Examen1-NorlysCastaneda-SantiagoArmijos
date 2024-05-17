@@ -15,3 +15,87 @@ INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VA
 [2024-05-16 20:26:42] [ INFO ] [BD:29] tabla creada con exito
 [2024-05-16 20:26:42] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de buscado de un paciente con id : 2
 [2024-05-16 20:26:42] [ INFO ] [DomicilioDAOH2:22] iniciando la busqueda de un domicilio con id: 2
+[2024-05-16 19:05:51] [ WARN ] [BD:34] org.h2.Driver
+[2024-05-16 19:05:51] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de buscado de un paciente con id : 2
+[2024-05-16 19:05:51] [ ERROR] [PacienteDAOH2:41] org.h2.Driver
+[2024-05-16 19:06:31] [ INFO ] [BD:29] tabla creada con exito
+[2024-05-16 19:06:31] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de buscado de un paciente con id : 2
+[2024-05-16 19:06:31] [ INFO ] [DomicilioDAOH2:22] iniciando la busqueda de un domicilio con id: 2
+[2024-05-16 20:29:02] [ WARN ] [BD:43] Error de Sintaxis en sentencia SQL "DROP [*]OF EXISTS PACIENTES; CREATE TABLE ODONTOLOGO(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(50) NOT NULL, APELLIDO VARCHAR(50) NOT NULL )"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP [*]OF EXISTS PACIENTES; CREATE TABLE ODONTOLOGO(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(50) NOT NULL, APELLIDO VARCHAR(50) NOT NULL )"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP OF EXISTS PACIENTES; CREATE TABLE ODONTOLOGO(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(50) NOT NULL, APELLIDO VARCHAR(50) NOT NULL ) [42001-214]
+[2024-05-16 20:29:02] [ WARN ] [OdontologoDAOH2:29] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+INSERT INTO ODONTOLOGO VALUES(?,?,?) [42102-214]
+[2024-05-16 20:29:02] [ WARN ] [OdontologoDAOH2:29] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+INSERT INTO ODONTOLOGO VALUES(?,?,?) [42102-214]
+[2024-05-16 20:29:02] [ WARN ] [OdontologoDAOH2:29] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+INSERT INTO ODONTOLOGO VALUES(?,?,?) [42102-214]
+[2024-05-16 20:29:02] [ WARN ] [OdontologoDAOH2:53] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+SELECT * FROM ODONTOLOGO [42102-214]
+[2024-05-16 20:29:34] [ WARN ] [BD:43] Error de Sintaxis en sentencia SQL "DROP [*]IF EXISTS PACIENTES; CREATE TABLE ODONTOLOGO(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(50) NOT NULL, APELLIDO VARCHAR(50) NOT NULL )"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP [*]IF EXISTS PACIENTES; CREATE TABLE ODONTOLOGO(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(50) NOT NULL, APELLIDO VARCHAR(50) NOT NULL )"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP IF EXISTS PACIENTES; CREATE TABLE ODONTOLOGO(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(50) NOT NULL, APELLIDO VARCHAR(50) NOT NULL ) [42001-214]
+[2024-05-16 20:29:34] [ WARN ] [OdontologoDAOH2:29] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+INSERT INTO ODONTOLOGO VALUES(?,?,?) [42102-214]
+[2024-05-16 20:29:34] [ WARN ] [OdontologoDAOH2:29] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+INSERT INTO ODONTOLOGO VALUES(?,?,?) [42102-214]
+[2024-05-16 20:29:34] [ WARN ] [OdontologoDAOH2:29] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+INSERT INTO ODONTOLOGO VALUES(?,?,?) [42102-214]
+[2024-05-16 20:29:34] [ WARN ] [OdontologoDAOH2:53] Tabla "ODONTOLOGO" no encontrada
+Table "ODONTOLOGO" not found; SQL statement:
+SELECT * FROM ODONTOLOGO [42102-214]
+[2024-05-16 20:30:11] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:30:11] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:30:11] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:30:11] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:30:11] [ INFO ] [OdontologoDAOH2:51] Listado de odontologos completo
+[2024-05-16 20:30:23] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:30:23] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:30:23] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:30:23] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:30:23] [ INFO ] [OdontologoDAOH2:51] Listado de odontologos completo
+[2024-05-16 20:31:07] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:31:07] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:31:07] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:31:07] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:31:07] [ INFO ] [OdontologoDAOH2:51] Listado de odontologos completo
+[2024-05-16 20:31:56] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:31:56] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:31:56] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:31:56] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:31:56] [ INFO ] [OdontologoDAOH2:51] Listado de odontologos completo
+[2024-05-16 20:35:47] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:35:47] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:47] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:47] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:47] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:47] [ INFO ] [OdontologoDAOArrayList:26] Listando todos los odontologos del ArrayList
+[2024-05-16 20:35:55] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOH2:51] Listado de odontologos completo
+[2024-05-16 20:35:55] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:35:55] [ INFO ] [OdontologoDAOArrayList:26] Listando todos los odontologos del ArrayList
+[2024-05-16 20:37:31] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOH2:26] Odontologo guardado en la base de datos
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOH2:51] Listado de odontologos completo
+[2024-05-16 20:37:31] [ INFO ] [BD:38] tabla creada con exito
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOArrayList:21] Agregando odontologo al ArrayList
+[2024-05-16 20:37:31] [ INFO ] [OdontologoDAOArrayList:26] Listando todos los odontologos del ArrayList
